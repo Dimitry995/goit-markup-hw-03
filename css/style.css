@@ -191,6 +191,7 @@ color:#757575;
 .info li {
 	display:inline-block;
 	width:270px;
+	padding-left:60px;
 }
 .info h3 {
 	padding-top:94px;
