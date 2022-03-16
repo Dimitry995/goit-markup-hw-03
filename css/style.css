@@ -226,7 +226,6 @@ color:#757575;
 	
 }
 .img {
-	margin-top:10px;
 	height:386px;
 }
 .img ul {
@@ -258,7 +257,6 @@ color:#757575;
 	height:648px;
 }
 .person h2 {
-padding-top:94px;
 margin:0 auto;
 font-family: 'Roboto', sans-serif;
 font-size: 36px;
@@ -299,7 +297,7 @@ color:#757575;
 }
 .person li {
 			display:inline-block;
-			padding-right:15px;
+			margin-left:29px;
 }
 .person  img {
 	width:270px;
