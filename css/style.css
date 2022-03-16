@@ -14,6 +14,9 @@ ul,ol {
 	margin-bottom:0;
 	padding-left: 0;
 }
+section {
+	margin-top:92px;
+}
 .container {
 	width:1200px;
 	margin:0 auto;
@@ -227,13 +230,12 @@ color:#757575;
 	height:386px;
 }
 .img ul {
-	padding-top:92px;
 	height:386px;
 	width:1170px;
 }
 .img li {
 		display:inline-block;
-		padding-right:15px;
+		margin-left:22px;
 }
 .img h2 {
 	margin:0 auto;
