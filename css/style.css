@@ -146,6 +146,7 @@ padding-top:32px;
 .hero  {
 	height:500px;
 	background-color:#2F303A;
+	margin-top:0;
 }
 .hero  h1 {
 	padding-top:200px;
