@@ -80,9 +80,10 @@ a.logo  {
 	color:#212121;
 }
 .navigation{
-    display: inline;
+	height:80px;
+	width: 400px;
+    display: inline-block;
     margin-right: 0;
-    width: 400px;
     padding-left: 0;
 }
 .navigation a {
