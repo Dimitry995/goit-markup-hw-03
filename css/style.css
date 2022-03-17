@@ -102,12 +102,11 @@ position:relative;
 .navigation ul {
 	text-decoration:none;
 	display:inline-flex;
-	margin-top: 32px;
 }
 .navigation li {
 	list-style:none;
 	text-decoration:none;
-	display:inline;
+	display:inline-block;
 }
 .right {
 	width:150px;
@@ -122,7 +121,7 @@ position:relative;
 }
 .right  li {
 	list-style:none;
-	display:inline;
+	display:inline-block;
 	
 }
 .right a {
@@ -189,6 +188,7 @@ color:#757575;
 }
 .info ul {
 	height:279px;
+	display:flex;
 }
 .info li {
 	display:inline-block;
@@ -248,6 +248,7 @@ color:#757575;
 }
 .person {
 	height:648px;
+	background-color:grey;
 }
 .person h2 {
 margin:0 auto;
@@ -366,8 +367,7 @@ margin-left:15px;
 	width: 370px;
 	height: 294px;
 }
-/*portfolio.html-END-*/
-/*--MAIN--HERO-END--*/
+/*--Portfolio-end--*/
 
 /*--FOOTER--START--*/
 .footer {
