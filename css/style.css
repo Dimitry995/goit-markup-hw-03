@@ -28,7 +28,7 @@ section {
 }
 .top-menu ul {
  	height:48px;
-	 display: inline;
+	 display: inline-block;
 	 margin-top:32px;
 
 }
