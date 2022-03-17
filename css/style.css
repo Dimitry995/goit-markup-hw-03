@@ -108,17 +108,10 @@ position:relative;
 	text-decoration:none;
 	display:inline-block;
 }
-.right {
-	width:150px;
+.top-right {
+	display:inline-block;
 	float:right;
-	list-style: none;
-}
-.right  ul {
-	float:right;
-	display:inline-flexbox;
-	margin-top:32px;
 	
-}
 .right  li {
 	list-style:none;
 	display:inline-block;
@@ -133,7 +126,8 @@ line-height: 0.7;
 letter-spacing: 0.02em;
 text-align: left;
 text-decoration:none;
-color:#757575;	
+color:#757575;
+padding-top:32px;
 }
 .right a:hover {
 	color:#2196F3;
