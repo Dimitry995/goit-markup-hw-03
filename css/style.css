@@ -90,10 +90,11 @@ a.logo  {
 	color:#212121;
 }
 .navigation{
-	display: inline;
+	display: inline-block;
     margin-right: 0;
     width: 400px;
     padding-left: 0;
+	float:left;
 }
 .navigation a {
 	font-family: 'Roboto', sans-serif;
