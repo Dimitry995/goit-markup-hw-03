@@ -130,14 +130,15 @@ margin-top:32px;
 	list-style: none;
 }
 .right  ul {
+	height:80px;
 	float:right;
-	display:inline-flexbox;
-	margin-top:32px;
+	display:flex;
+	flex-direction:row;
 	
 }
 .right  li {
-			list-style:none;
-	display:inline;
+	list-style:none;
+	margin-left:30px;
 	
 }
 .right a {
