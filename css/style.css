@@ -89,13 +89,6 @@ a.logo  {
 .logo-color-black {
 	color:#212121;
 }
-.navigation{
-	display: inline-block;
-    margin-right: 0;
-    width: 400px;
-    padding-left: 0;
-	float:left;
-}
 .navigation a {
 	font-family: 'Roboto', sans-serif;
 font-size: 14px;
@@ -110,26 +103,18 @@ list-style: none;
 margin-top:32px;
 }
 .navigation ul {
-			list-style:none;
+	list-style:none;
 	text-decoration:none;
-	display:inline-flex;
+	display:flex;
+	flex-direction:row;
 	margin-top: 32px;
 }
 .navigation li {
-			list-style:none;
+	list-style:none;
 	text-decoration:none;
-	display:inline;
+	margin-left:30px;
 }
-.top {
-	display:inline-flex;
-	float:right;
-	margin-top: 32px;
-}
-.right {
-	width:150px;
-	float:right;
-	list-style: none;
-}
+
 .right  ul {
 	height:80px;
 	float:right;
@@ -152,6 +137,7 @@ letter-spacing: 0.02em;
 text-align: left;
 text-decoration:none;
 color:#757575;	
+padding-top:32px;
 }
 .right a:hover {
 	color:#2196F3;
