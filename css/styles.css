@@ -70,23 +70,22 @@ text-align: left;
 color:var(--main-color);
 
 }
-.top  {
+.top-list  {
 	display: flex;
 	flex-direction: row;
 	margin-left:400px;
 }
-.right  {
+.right-item  {
 	display:inline-block;
 	margin-left:45px;
 	padding-top:32px;
 	padding-bottom:34px;	
 }
-.item-link   {
+.contact-link   {
 font-weight: 500;
 line-height: 1.4;
 letter-spacing: 0.02em;
 text-align: left;
-text-decoration:none;
 color:var(--secondary-color);
 padding-top:32px;
 padding-bottom: 34px;
@@ -316,8 +315,8 @@ margin-left:15px;
 }
 .content-title-h3 {
 font-size: 16px;
+	text-align:left;
 letter-spacing: 0.03em;
-text-align: left;
 color:var(--secondary-color);
 margin-left:15px;
 
@@ -339,9 +338,9 @@ margin-left:15px;
 	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
 	letter-spacing: 0.03em;
 	color:var(--four-color);
+	line-height:1.2;
 }
 .logo-color-white {
 	color:var(--third-color);
@@ -353,14 +352,14 @@ margin-left:15px;
 
 
 .adress {
-line-height: 24px;
+line-height: 1.4;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--third-color);
 
 }
 .email-phone {
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
