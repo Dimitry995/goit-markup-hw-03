@@ -334,13 +334,16 @@ margin-left:15px;
 	background-color:var(--six-color);
 }
 .logo-bottom {
-	padding-top:60px;
 	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 26px;
 	letter-spacing: 0.03em;
 	color:var(--four-color);
 	line-height:1.2;
+	position: absolute;
+    	width: 145px;
+    	height: 31px;
+    	top: 60px;
 }
 .logo-color-white {
 	color:var(--third-color);
