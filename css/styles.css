@@ -50,7 +50,7 @@ a {
 	padding-bottom: 27px;
 }
 .logo-color-black {
-	color:var(--four-color);
+	color:var(--main-color);
 }
 .navigation {
 display:contents;	
