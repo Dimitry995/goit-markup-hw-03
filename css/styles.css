@@ -88,10 +88,16 @@ color:var(--secondary-color);
 padding-top:32px;
 padding-bottom: 34px;
 }
-.menu a:hover {
+.navigation-link a:hover {
 	color:var(--four-color);
 }
-.menu a:focus {
+.navigation-link a:focus {
+	color:var(--four-color);
+}
+.contact-link a:hover {
+	color:var(--four-color);
+}
+.contact-link a:focus {
 	color:var(--four-color);
 }
 .current {
