@@ -55,8 +55,11 @@ a {
 	display:flex;
 	flex-direction:row;
 }
+.navigation-item:first-child {
+margin-left:93px;	
+}
 .navigation-item  {
-	margin-left:93px;
+	margin-left:50px;
 	display:inline-block;
 	padding-top:32px;
 	padding-bottom:34px;
@@ -148,7 +151,6 @@ color:var(--four-color);
 	margin-top:0;
 }
 .info-list {
-	width:1200px;
 	display:flex;
 }
 .info-item {
@@ -179,9 +181,7 @@ color:var(--four-color);
 padding-top:0;	
 }
 .img-list {
-	margin-top:92px;
-	width:1200px;
-	height:385px;
+	margin-top:50px;
 }
 .img-item {
 		display:inline-block;
