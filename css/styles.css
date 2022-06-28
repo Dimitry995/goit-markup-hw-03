@@ -245,6 +245,9 @@ color:var(--secondary-color);
 }
 /*index.html-END-*/
 /*portfolio.html*/
+.content {
+	padding-top:0;
+}
 .filters-title {
 	visibility:hidden;
 }
@@ -253,7 +256,6 @@ color:var(--secondary-color);
 		display:flex;
 		justify-content: center;
 		flex-direction: row;
-		list-style:none;
 
 }
 .filters-item {
@@ -261,7 +263,7 @@ color:var(--secondary-color);
 	height:38px;
 	display:inline-block;
 	align-items: center;
-	background:var(--four-color);
+	background-color:var(--four-color);
 	margin-right:20px;
 	justify-content: center;
 	border-radius: 4px;
@@ -291,25 +293,24 @@ color:var(--secondary-color);
 	color:var(--third-color);
 }
 .top-filters li.item a:active {
-	background-color:var(--four-color);
+	shadow-bottom:3px;
 	border-radius: 4px;
 	color:var(--third-color);
 }
 .content-list {
-	list-style:none;
-	text-decoration:none;
-	display:grid;
+	    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-column-gap: 30px;
+    padding-top: 50px;
 }
 .content-item {
-	list-style:none;
-	text-decoration:none;
-	display:inline-block;
-	margin-left:22px;
-	border:1px solid var(--seven-color);
-	margin-bottom:25px;
-	width:370px;
+    display: inline-block;
+    margin-left: 30px;
+    border: 1px solid var(--seven-color);
+    margin-bottom: 25px;
+    width: 370px;
 }
-.content-paragraf {
+.content-title-h3 {
 font-size: 18px;
 font-weight: 700;
 line-height: 1.2;
@@ -319,7 +320,7 @@ color:var(--main-color);
 margin-left:15px;
 
 }
-.content-title-h3 {
+.content-paragraf {
 font-size: 16px;
 text-align:left;
 letter-spacing: 0.03em;
