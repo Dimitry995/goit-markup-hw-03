@@ -50,14 +50,20 @@ a {
 	padding-bottom: 27px;
 }
 .logo-color-black {
-	color:var(--main-color);
+	color:var(--four-color);
+}
+.navigation {
+display:contents;	
 }
 .navigation-list  {
-	display:flex;
+	display:inline-flex;
 	flex-direction:row;
 }
-.navigation-item  {
+.navigation-item:first-child {
 	margin-left:93px;
+}
+.navigation-item  {
+	margin-left:50px;
 	display:inline-block;
 	padding-top:32px;
 	padding-bottom:34px;
@@ -70,7 +76,7 @@ color:var(--main-color);
 
 }
 .top-list  {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	margin-left:250px;
 }
@@ -124,8 +130,7 @@ color:var(--four-color);
 	margin-bottom:15px;
 	text-transform:uppercase ;
 	width:700px;
-	margin-left:350px;
-
+````````margin-left:250px;
 	
 }
 .hero-button {
@@ -141,7 +146,6 @@ color:var(--four-color);
 	letter-spacing: 0.06em;
 	text-align: center;
 	color:var(--third-color);
-	margin-bottom:200px;
 	cursor:pointer;
 	
 }
@@ -241,9 +245,8 @@ color:var(--secondary-color);
 }
 /*index.html-END-*/
 /*portfolio.html*/
-.filters {
-	padding-top:100px;
-	margin:0 auto;
+.filters-title {
+	visibility:hidden;
 }
 .filters-list {
 		margin:0 auto;
@@ -258,13 +261,13 @@ color:var(--secondary-color);
 	height:38px;
 	display:inline-block;
 	align-items: center;
-	background:var(--five-color);
+	background:var(--four-color);
 	margin-right:20px;
 	justify-content: center;
 	border-radius: 4px;
+	border:none;
 }
 .filters-link {
-	text-decoration:none;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.03em;
@@ -275,16 +278,14 @@ color:var(--secondary-color);
 	display:flex;
 	justify-content:center;
 	align-items:center;
-
-
 }
 
-.filters li.item a:hover {
+.filters-item a:hover {
 	background-color:var(--four-color);
 		border-radius: 4px;
 		color:var(--third-color);
 }
-.top-filters li.item a:focus {
+.top-filters-item a:focus {
 	background-color:var(--four-color);
 	border-radius: 4px;
 	color:var(--third-color);
@@ -297,9 +298,7 @@ color:var(--secondary-color);
 .content-list {
 	list-style:none;
 	text-decoration:none;
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
+	display:grid;
 }
 .content-item {
 	list-style:none;
