@@ -95,16 +95,16 @@ color:var(--secondary-color);
 padding-top:32px;
 padding-bottom: 34px;
 }
-.navigation-link a:hover {
+.navigation-link:hover {
 	color:var(--four-color);
 }
-.navigation-link a:focus {
+.navigation-link:focus {
 	color:var(--four-color);
 }
-.contact-link a:hover {
+.contact-link:hover {
 	color:var(--four-color);
 }
-.contact-link a:focus {
+.contact-link:focus {
 	color:var(--four-color);
 }
 .current {
@@ -283,11 +283,11 @@ color:var(--secondary-color);
 	background-color:var(--five-color);
 }
 
-.filters-item a:hover {
+.filters-link:hover {
 	background-color:var(--four-color);
 	color:var(--third-color);
 }
-.top-filters-item a:focus {
+.top-filters-link:focus {
 	background-color:var(--four-color);
 	color:var(--third-color);
 }
