@@ -22,6 +22,7 @@ ul,li {
 .container {
 	width:1200px;
 	margin:0 auto;
+	padding: 15px 15px;
 }
 section {
 	padding-top:94px;
@@ -55,11 +56,8 @@ a {
 	display:flex;
 	flex-direction:row;
 }
-.navigation-item:first-child {
-margin-left:93px;	
-}
 .navigation-item  {
-	margin-left:50px;
+	margin-left:93px;
 	display:inline-block;
 	padding-top:32px;
 	padding-bottom:34px;
@@ -152,11 +150,12 @@ color:var(--four-color);
 }
 .info-list {
 	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
 }
 .info-item {
-	display:inline-block;
 	width:270px;
-	margin-left:27px;
+	margin-left:30px;
 }
 .info-title-h3 {
 	font-weight: 700;
@@ -181,11 +180,12 @@ color:var(--four-color);
 padding-top:0;	
 }
 .img-list {
-	margin-top:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
 }
 .img-item {
-		display:inline-block;
-		margin-left:22px;
+	margin-top:50px;
 }
 .img-title-h2 {
 	margin:0 auto;
@@ -196,13 +196,7 @@ padding-top:0;
 	color:var(--main-color);
 
 }
-.img-img {
-	width:370px;
-	height:294px;
-	
-}
 .person {
-	height:548px;
 	background:var(--five-color);
 
 }
@@ -232,18 +226,17 @@ color:var(--secondary-color);
 
 }
 .person-list {
-	width:1200px;
-	height:368px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
 	padding-top:50px;
 }
 .person-item{
 			display:inline-block;
-			margin-left:27px;
+			margin-left:30px;
 			background-color:var(--third-color);
 }
 .person-img {
-	width:270px;
-	height:260px;
 }
 /*index.html-END-*/
 /*portfolio.html*/
@@ -303,7 +296,9 @@ color:var(--secondary-color);
 .content-list {
 	list-style:none;
 	text-decoration:none;
-	display:inline-block;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
 }
 .content-item {
 	list-style:none;
@@ -325,15 +320,13 @@ margin-left:15px;
 }
 .content-title-h3 {
 font-size: 16px;
-	text-align:left;
+text-align:left;
 letter-spacing: 0.03em;
 color:var(--secondary-color);
 margin-left:15px;
 
 }
 .content-img {
-	width: 370px;
-	height: 294px;
 }
 /*portfolio.html-END-*/
 /*--MAIN--HERO-END--*/
