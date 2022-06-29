@@ -5,7 +5,7 @@
 	--four-color:#2196F3;
 	--five-color:#F5F4FA;
 	--six-color:#2F303A;
-	--seven-color:#eee;
+	--seven-color:#ECECEC;;
 }
 body {
 	font-size:14px;
@@ -34,7 +34,7 @@ a {
 /*--HEADER--START--*/
 
 .menu {
-	display: flex;
+	display:inline-flex;
 	flex-direction: row;
 	border-bottom:1px solid var(--seven-color);
 	margin:0 auto;
