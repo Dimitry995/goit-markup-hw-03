@@ -263,7 +263,6 @@ color:var(--secondary-color);
 	height:38px;
 	display:inline-block;
 	align-items: center;
-	background-color:var(--four-color);
 	margin-right:20px;
 	justify-content: center;
 }
@@ -285,10 +284,12 @@ color:var(--secondary-color);
 
 .filters-link:hover {
 	background-color:var(--four-color);
+	border-radius: 4px;
 	color:var(--third-color);
 }
 .top-filters-link:focus {
 	background-color:var(--four-color);
+	border-radius: 4px;
 	color:var(--third-color);
 }
 .top-filters li.item a:active {
