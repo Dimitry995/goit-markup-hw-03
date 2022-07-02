@@ -347,9 +347,9 @@ margin-left:15px;
 
 /*--FOOTER--START--*/
 .footer {
-	height:252px;
 	background-color:var(--six-color);
-	position:relative;
+	padding-top:60px;
+	padding-bottom:60px;
 }
 .logo-bottom {
 	font-family: 'Raleway';
@@ -358,14 +358,11 @@ margin-left:15px;
 	letter-spacing: 0.03em;
 	color:var(--four-color);
 	line-height:1.2;
-	position: absolute;
-	top: 60px;
 }
 .logo-color-white {
 	color:var(--third-color);
 }
 .footer ul {
-	padding-top:75px;
 	background-color:var(--six-color);
 }
 
