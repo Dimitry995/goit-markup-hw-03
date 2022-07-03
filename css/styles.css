@@ -168,8 +168,9 @@ color:var(--four-color);
 }
 .info-list {
 	display:flex;
-	flex-direction:row;
-	justify-content:space-around;
+}
+.info-item:first-child {
+margin-left:0;	
 }
 .info-item {
 	width:270px;
