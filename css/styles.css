@@ -200,11 +200,10 @@ padding-top:0;
 }
 .img-list {
 	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
 }
 .img-item {
-	margin-top:50px;
+	padding-top:50px;
+	margin-left:30px;
 }
 .img-title-h2 {
 	margin:0 auto;
