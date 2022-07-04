@@ -273,7 +273,7 @@ color:var(--secondary-color);
 	padding-top:0;
 }
 .filters-title {
-	visibility:hidden;
+	display:none;
 }
 .filters-list {
 		margin:0 auto;
