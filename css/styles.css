@@ -241,7 +241,7 @@ color:var(--main-color);
 	letter-spacing: 0.03em;
 	text-align: center;
 	color:var(--main-color);
-	padding-top:30px;
+	margin-top:30px;
 	margin-bottom:10px;
 
 }
