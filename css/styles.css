@@ -327,7 +327,6 @@ color:var(--secondary-color);
 }
 .content-item {
     display: inline-block;
-    margin-left: 30px;
     border: 1px solid var(--seven-color);
     margin-bottom: 25px;
     width: 370px;
