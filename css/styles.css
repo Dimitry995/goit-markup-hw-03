@@ -309,15 +309,13 @@ color:var(--secondary-color);
 	background-color:var(--four-color);
 	border-radius: 4px;
 	color:var(--third-color);
+	 box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 .top-filters-link:focus {
 	background-color:var(--four-color);
 	border-radius: 4px;
 	color:var(--third-color);
-}
-.top-filters li.item a:active {
-	shadow-bottom:3px;
-	color:var(--third-color);
+	 box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 .content-list {
 	    display: grid;
@@ -353,6 +351,14 @@ margin-bootom:20px;
 
 }
 .content-img {
+}
+.content-item:hover {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;	
+}
+.content-item:focus {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;	
 }
 /*portfolio.html-END-*/
 /*--MAIN--HERO-END--*/
