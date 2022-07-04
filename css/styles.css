@@ -197,11 +197,11 @@ margin-left:0;
 }
 .img {
 padding-top:0;	
-padding-top:50px;
 
 }
 .img-list {
 	display:flex;
+	padding-top:50px;
 }
 .img-item:first-child {
 	margin-left:0;
