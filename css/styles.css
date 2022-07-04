@@ -197,12 +197,16 @@ margin-left:0;
 }
 .img {
 padding-top:0;	
+padding-top:50px;
+
 }
 .img-list {
 	display:flex;
 }
+.img-item:first-child {
+	margin-left:0;
+}
 .img-item {
-	padding-top:50px;
 	margin-left:30px;
 }
 .img-title-h2 {
@@ -213,6 +217,10 @@ padding-top:0;
 	text-align: center;
 	color:var(--main-color);
 
+}
+.img-img {
+width:370px;
+height:294px;
 }
 .person {
 	background:var(--five-color);
@@ -248,9 +256,7 @@ color:var(--secondary-color);
 }
 .person-list {
 	display:flex;
-	flex-direction:row;
-	justify-content:space-around;
-	padding-top:50px;
+	margin-top:50px;
 }
 .person-item{
 			display:inline-block;
