@@ -369,6 +369,7 @@ margin-left:15px;
 	letter-spacing: 0.03em;
 	color:var(--four-color);
 	line-height:1.2;
+	margin-bottom:9px;
 }
 .logo-color-white {
 	color:var(--third-color);
@@ -383,6 +384,7 @@ line-height: 1.4;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--third-color);
+	margin-bottom:9px;
 
 }
 .email-phone {
@@ -390,6 +392,10 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
+	margin-bottom:9px;
+}
+.email-phone:last-child {
+margin-bottom:0;	
 }
 .email-phone:hover {
 	color:var(--four-color);
