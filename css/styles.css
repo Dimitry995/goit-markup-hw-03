@@ -163,7 +163,7 @@ color:var(--four-color);
 	
 }
 .info-title-h2 {
-	visibility:hidden;
+	display:none;
 	margin-top:0;
 }
 .info-list {
@@ -286,12 +286,13 @@ margin-left:0;
 
 }
 .filters-item {
-	width:145px;
-	height:38px;
 	display:inline-block;
 	align-items: center;
-	margin-right:20px;
+	margin-right:8px;
 	justify-content: center;
+}
+.filter-item:last-child {
+	margin-right:0;
 }
 .filters-link {
 	font-size: 16px;
@@ -299,14 +300,13 @@ margin-left:0;
 	letter-spacing: 0.03em;
 	text-align: center;
 	color:var(--main-color);
-	height:38px;
-	width:145px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	border-radius: 4px;
 	border:none;
 	background-color:var(--five-color);
+	padding:6px 22px;
 }
 
 .filters-link:hover {
@@ -395,7 +395,8 @@ line-height: 1.4;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--third-color);
-	margin-bottom:9px;
+margin-bottom:20px;
+font-style:normal;
 
 }
 .email-phone {
